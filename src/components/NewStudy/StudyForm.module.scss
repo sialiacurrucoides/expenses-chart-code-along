@@ -1,0 +1,28 @@
+.new-study__controls {
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-study__control label {
+    font-weight: bold;
+    margin: 0.5rem 0 0;
+    display: block;
+  }
+  
+  .new-study__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .new-study__actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  

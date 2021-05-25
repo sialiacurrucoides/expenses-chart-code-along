@@ -1,14 +1,14 @@
-import styles from './ExpenseFilter.module.scss';
+import styles from './StudiesFilter.module.scss';
 
-const ExpensesFilter = ({onYearSelect, selected}) => {
+const StudiesFilter = ({onYearSelect, selected}) => {
 
   const handleChange = (event) => {
     onYearSelect(event.target.value);
   };
 
   return (
-    <div className={styles['expenses-filter']}>
-      <div className={styles['expenses-filter__control']}>
+    <div className={styles['studies-filter']}>
+      <div className={styles['studies-filter__control']}>
         <label>Filter by year</label>
         <select onChange={handleChange} value={selected}>
           <option value='2022'>2022</option>
@@ -21,4 +21,4 @@ const ExpensesFilter = ({onYearSelect, selected}) => {
   );
 };
 
-export default ExpensesFilter;
+export default StudiesFilter;
