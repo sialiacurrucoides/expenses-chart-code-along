@@ -15,7 +15,7 @@ const ExpensesChart = ({filteredExpenses}) => {
         {label: 'Nov', value: 0},
         {label: 'Dec', value: 0},
     ];
-    console.log("filteredExpenses", filteredExpenses);
+
     if (filteredExpenses){
         for (const expense of filteredExpenses){
             const expenseMonth = expense.date.getMonth(); // starting at 0 => January

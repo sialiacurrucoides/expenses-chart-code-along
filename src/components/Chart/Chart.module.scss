@@ -4,6 +4,7 @@
     background-color: #f8dfff;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    height: 10rem;
+    max-height: 16rem;
   }
